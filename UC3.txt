@@ -1,0 +1,9 @@
+
+insert into employee_payroll (name, salary, startDate)
+values ('Durgesh', 900000.0, '2021-04-10');
+insert into employee_payroll (name, salary, startDate)
+values ('Abhi', 700000.0, '2021-09-10');
+insert into employee_payroll (name, salary, startDate)
+values ('Swati', 800000.0, '2021-02-10');
+insert into employee_payroll (name, salary, startDate)
+values ('Amol', 600000.0, '2021-05-10');
