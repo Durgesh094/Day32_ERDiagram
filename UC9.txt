@@ -1,0 +1,13 @@
+
+alter table employee_payroll
+rename column salary to basic_pay;
+
+alter table employee_payroll
+add deductions int,
+add taxable_pay int,
+add income_tax int,
+add net_pay int;
+
+select * from employee_payroll;
+
+SELECT SUM(basic_pay) FROM employee_payroll WHERE gender = 'F' GROUP by gender;
