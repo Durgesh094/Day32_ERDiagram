@@ -1,0 +1,3 @@
+Field,Type,Null,Key,Default,Extra
+employee_id,int,NO,PRI,NULL,
+department_id,int,NO,PRI,NULL,

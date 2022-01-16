@@ -1,0 +1,9 @@
+Field,Type,Null,Key,Default,Extra
+id,int,NO,PRI,NULL,auto_increment
+basic_pay,double,YES,,NULL,
+deductions,double,YES,,NULL,
+income_tax,double,YES,,NULL,
+taxable_pay,double,YES,,NULL,
+tax,double,YES,,NULL,
+net_pay,double,YES,,NULL,
+emp_ID,int,YES,MUL,NULL,
